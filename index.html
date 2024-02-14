@@ -53,10 +53,10 @@
         <div class="container">
         
           <div class="row align-items-center justify-content-between text-left">
-            <div class="col-md-5 text-right">
+            <div class="col-md-5 text-right d-lg-none d-xl-block">
               <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
                 <li class="has-children">
-                  <a href="#home-section" class="nav-link d-xl-none">Home</a>
+                  <a href="#home-section" class="nav-link d-xl-none d-md-none d-lg-block">Home</a>
                   <ul class="dropdown">
                     <li>
                       <a href="index.html">Hero Image BG</a>
@@ -77,22 +77,22 @@
                 </li>
                 <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
                 <li><a href="#about-section" class="nav-link">About</a></li>
-                <li><a href="#services-section" class="nav-link d-xl-none">Services</a></li>
+                <li><a href="#services-section" class="nav-link d-md-none">Services</a></li>
               </ul>
             </div>
             <div class="site-logo pos-absolute">
               <a href="index.html" class="unslate_co--site-logo">Tim C<span>.</span></a>
             </div>
-            <div class="col-md-5 text-right text-lg-left">
-              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+            <div class="col-md-5 text-right text-lg-left d-lg-none d-xl-block">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block d-lg-none d-xl-block">
                 <li><a href="#skills-section" class="nav-link">Skills</a></li>
-                <li><a href="#testimonial-section" class="nav-link d-xl-none">Testimonial</a></li>
-                <li><a href="#journal-section" class="nav-link d-xl-none">Journal</a></li>
+                <li><a href="#testimonial-section" class="nav-link d-xl-none d-md-none d-lg-block">Testimonial</a></li>
+                <li><a href="#journal-section" class="nav-link d-xl-none d-md-none d-lg-block">Journal</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
 
               <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
-                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+                <li class="d-none d-sm-block"><a href="#" class="js-menu-toggle d-lg-block d-sm-none">Menu</a></li>
               </ul>
 
             </div>
@@ -233,7 +233,7 @@
                   </a>
               </div>
 
-              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2 d-xl-none">
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2 d-none">
                 <a href="images/work_7_a_md.jpg" class="portfolio-item item-portrait isotope-item gsap-reveal-img " data-fancybox="gallery" data-caption="Modern Building">
                     <div class="overlay">
                       <span class="wrap-icon icon-photo2"></span>
@@ -246,7 +246,7 @@
                   </a>
               </div>
 
-              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2 d-xl-none">
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2 d-none">
                 <a href="https://www.youtube.com/watch?v=mwtbEGNABWU" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Showreel 2019">
                     <div class="overlay">
                       <span class="wrap-icon icon-play_circle_filled"></span>
@@ -259,7 +259,7 @@
                   </a>
               </div>
 
-              <div class="item web illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2 d-xl-none">
+              <div class="item web illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2 d-none">
                 <a href="images/work_9_a_md.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Render Packaging">
                     <div class="overlay">
                       <span class="wrap-icon icon-photo2"></span>
@@ -281,7 +281,7 @@
       </div>
 
 
-      <div class="unslate_co--section d-xl-none">
+      <div class="unslate_co--section d-none">
         <div class="container">
           <div class="owl-carousel logo-slider">
             <div class="logo-v1 gsap-reveal">
@@ -328,7 +328,7 @@
         </div>
       </div>
 
-      <div class="unslate_co--section d-xl-none" id="services-section">
+      <div class="unslate_co--section d-none" id="services-section">
         <div class="container">
 
           <div class="section-heading-wrap text-center mb-5">
@@ -447,7 +447,7 @@
       </div>
       <!-- END .counter -->
 
-      <div class="unslate_co--section d-xl-none" id="testimonial-section">
+      <div class="unslate_co--section d-none" id="testimonial-section">
         <div class="container">
           <div class="section-heading-wrap text-center mb-5">
             <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Happy Clients</span></h2>
@@ -512,11 +512,11 @@
       </div>
       <!-- END testimonial -->
 
-      <div class="unslate_co--section d-xl-none" id="journal-section">
+      <div class="unslate_co--section d-none" id="journal-section">
         <div class="container">
           <div class="section-heading-wrap text-center mb-5">
             <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Journal</span></h2>
-            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76" class="d-sm-none d-md-block"></span>
           </div>
 
           
@@ -594,8 +594,8 @@
       <!-- END blog posts -->
 
 
-      <div class="unslate_co--section" id="contact-section">
-        <div class="container">
+      <div class="unslate_co--section d-lg-none" id="contact-section">
+        <div class="container d-none d-sm-block">
           <div class="section-heading-wrap text-center mb-5">
             <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Get In Touch</span></h2>
             <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
@@ -605,8 +605,8 @@
           <div class="row justify-content-between">
             
             <div class="col-md-6">
-              <form method="post" class="form-outline-style-v1" id="contactForm">
-                <div class="form-group row mb-0">
+              <form method="post" class="form-outline-style-v1 d-none" id="contactForm">
+                <div class="form-group row mb-0 d-md-none d-lg-block">
 
                   <div class="col-lg-6 form-group gsap-reveal">
                     <label for="name">Name</label>
@@ -623,7 +623,7 @@
                 </div>
                 <div class="form-group row gsap-reveal">
                     <div class="col-md-12 d-flex align-items-center">
-                      <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Send Message">
+                      <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3 d-md-none d-lg-block" value="Send Message">
                       <span class="submitting"></span>
                     </div>
                   </div>
@@ -641,12 +641,12 @@
                   <span class="d-block contact-info-label">Email</span>
                   <a href="#" class="contact-info-val">tcochran.jr@gmail.com</a>
                 </div>
-                <div class="gsap-reveal d-block d-xl-none">
-                  <span class="d-block contact-info-label">Phone</span>
+                <div class="gsap-reveal d-block d-none">
+                  <span class="d-block contact-info-label d-md-block d-none">Phone</span>
                   <a href="#" class="contact-info-val">+12 345 6789 012</a>
                 </div>
-                <div class="gsap-reveal d-block d-xl-none">
-                  <span class="d-block contact-info-label">Address</span>
+                <div class="gsap-reveal d-block d-none">
+                  <span class="d-block contact-info-label d-none d-sm-block">Address</span>
                   <address class="contact-info-val">
                   6744 Dayton Rd. <br>
                   Enon, OH 45323
@@ -667,7 +667,7 @@
               
               <div class="footer-site-logo"><a href="#">Tim C<span>.</span></a></div>
 
-              <ul class="footer-site-social">
+              <ul class="footer-site-social d-xl-block d-sm-none">
                 <li><a href="#" class="d-xl-none">Facebook</a></li>
                 <li><a href="#" class="d-xl-none">Twitter</a></li>
                 <li><a href="#" class="d-xl-none">Instagram</a></li>
